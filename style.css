@@ -1,0 +1,122 @@
+body {
+    background-color: whitesmoke
+}
+img {
+    display: block; margin: 0px auto;
+    width: 250px;
+    height: 200px;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;  
+    border : 5px solid peachpuff;
+    ;
+    
+    margin: 0;
+}
+.navbar {
+    display : flex;
+    justify-content:  center;
+    margin-left: 0px;
+    padding:  5px;
+    margin-bottom: 50px;
+}
+
+.navbar_menu {
+    display : flex;
+    font-size: 15px;
+    
+
+}
+
+.navbar_menu ul:hover {
+    background-color: khaki;
+    border-radius: 4px;
+}
+
+.shop{
+    width: 100%;
+  display: flex; 
+  border : 5px solid bisque;
+  
+}
+
+.shop_leftbox {
+    width: 80%;
+    height: 320px;
+    margin : 10px auto;
+    vertical-align: center;
+}   
+.shop_leftbox img {
+    max-width: 600px; 
+    height:  300px;
+}
+.shop_rightbox {
+    width: 50%;
+    height: 320px;
+    margin : 10px auto;
+    vertical-align: middle;
+}
+
+@media screen and (max-width : 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar_menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+h1  {
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.best_seller {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.image_1.image_2.image_3.image_4{
+    width: 25%;
+    height: auto;
+	
+}
+
+.text_1.text_2.text_3.text_4{
+    width: 100%;
+   
+    background-color: peachpuff;
+    text-align: left;
+}
+
+.brand_story {
+    margin-top: 100px;
+    text-align: center;
+    border : 5px solid bisque;
+}
+
+p {
+    font-size: 20px;
+    font-style: oblique;
+   
+}
+
+.comp {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border : 5px solid bisque;
+    margin-top: 100px;
+   
+}
+
+.comp_1 ul.comp_2 ul.comp_3 {
+    font-size: 10px;
+}

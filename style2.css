@@ -1,0 +1,55 @@
+img {
+    display: block; margin: 0px auto;
+    width: 250px;
+    height: 200px;
+}
+.navbar {
+    display : flex;
+    justify-content:  center;
+    margin-left: 0px;
+    padding:  5px;
+    margin-bottom: 50px;
+    border : 5px solid peachpuff;
+}
+
+.navbar_menu {
+    display : flex;
+    font-size: 15px;
+    
+
+}
+
+.navbar_menu ul:hover {
+    background-color: khaki;
+    border-radius: 4px;
+}
+
+.contents {
+    display : block;
+    justify-content:  center;
+    margin-left: 0px;
+    padding:  10px;
+    margin-bottom: 50px;
+    background-size: 1000px 1000px;
+
+}
+
+.contents_picture img {
+    width: 1000px;
+    height: 1000px; 
+}
+
+.contents li {
+    font-size: 15px;
+    color:black;
+    text-align: center;
+}
+
+.introduce {
+    border: 3px solid black;
+    text-align: justify;
+}
+
+.introduce ul {
+    font-size: 8px;
+}
